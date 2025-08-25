@@ -1,0 +1,23 @@
+{
+    "name": "trelica-log-puller",
+    "version": "1.0.0",
+    "description": "Pull audit logs from Trelica API",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "pull": "node index.js",
+        "pull:incremental": "node index.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5"
+    },
+    "keywords": [
+        "trelica",
+        "audit",
+        "logs",
+        "api"
+    ],
+    "author": "",
+    "license": "MIT",
+    "packageManager": "yarn@1.22.0"
+}
